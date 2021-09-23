@@ -12,7 +12,8 @@ describe('My First Test', function () {
         lp.fillPassword('Test12345')
         lp.submit()
         const um = new UserManager
-        um.CreatePrimaryuser()
+      // um.CreatePrimaryuser()
+        um.CreateTeamUser()
     })
 
 })
